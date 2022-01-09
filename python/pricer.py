@@ -12,5 +12,7 @@ class Pricer:
         if itemtype not in self.__pricing_database:
             return 0
         return self.__pricing_database[itemtype]
+    
+        
 
 
