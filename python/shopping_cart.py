@@ -6,6 +6,9 @@ from shopping_cart_interface import IShoppingCart
 from pricer import Pricer
 from format import Format
 
+# Ran out of time to go back over testing and ensure implementation
+# was the best solution
+
 class ShoppingCart(IShoppingCart):
     """
     Implementation of the shopping tills in our supermarket.
